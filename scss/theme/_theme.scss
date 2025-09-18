@@ -1,0 +1,35 @@
+@use "../utils/" as *;
+
+/*--------------------------*/
+// 1.1 Theme Default
+/*----------------------*/
+
+@import url($font-url);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------------------------*/
+// typography css start
+/*----------------------*/
+body {
+  font-family: var(--tp-font-body);
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--tp-font-heading);
+  margin-top: opx;
+  font-weight: 700;
+  line-height: 1.2;
+}
